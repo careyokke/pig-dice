@@ -1,23 +1,42 @@
 .header {
   text-align: center;
+
 }
-$pigbutton{
-width: 10%;
-height: 10%;
+img{
+visibility: hidden;
+}
+h3{
+  font-size: 500%;
+  color: hotpink;
+}
+h2{
+color: blue;
+}
+h1{
+color: hotpink;
+}
+.row{
+  color: red;
+  font-size: 150%;
+}
+#pig-button{
+width: 200px;
+height: 200px;
 
 }
   body {
     padding: 10%;
     margin: 0;
     user-select: none;
+    background-color: pink
   }
   table {
     margin: 5% auto;
     padding: 0;
-    width: 3in;
-    height: 3in;
-    max-height: 3in;
-    max-width: 3in;
+    width: 1in;
+    height: 1in;
+    max-height: 2in;
+    max-width: 2in;
     border-collapse: collapse;
     transform: rotate(0deg);
     position: relative;
@@ -45,7 +64,7 @@ height: 10%;
   }
   .circle {
     border-radius: 50%;
-    background-color: rgba(0,39,96,0.4);
+    background-color: hotpink;
     height: 100%;
     user-select: none;
   }
@@ -53,8 +72,8 @@ height: 10%;
     background: linear-gradient(to top, #1194d6, #8ce7f8);
     display: flex;
     align-items: center;
-    height: 5in;
-    width: 5in;
+    height:1.5in;
+    width:1.5in;
     user-select: none;
     margin: 20%;
   }
